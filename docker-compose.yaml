@@ -9,3 +9,7 @@ services:
   rasp:
     image: tmvdl/downloads:rasp
     build: './src/rasp'
+
+  neon:
+    image: tmvdl/downloads:neon
+    build: './src/neon'
