@@ -1,1 +1,3 @@
-FROM ubuntu:jammy
+FROM ubuntu:latest
+
+WORKDIR /app
