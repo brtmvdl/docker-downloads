@@ -8,6 +8,12 @@ Veja mais em [hub.docker.com/r/tmvdl/downloads](https://hub.docker.com/r/tmvdl/d
 
 Instalar o [Docker](https://docs.docker.com/engine/install/).
 
+### Para baixar o NDE Neon SO
+
+```
+docker run -v $(pwd):/app -w /app --network host tmvdl/downloads:neon
+```
+
 ### Para baixar o RaspBerry SO
 
 ```
